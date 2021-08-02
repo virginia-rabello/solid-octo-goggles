@@ -1,6 +1,7 @@
 import React from 'react';
 
-function Nav (){
+function Nav (props){
+    const tabs = ['About', 'Portifolio', 'Resume', 'Contact'];
     return (
         <header>
             <nav>
@@ -9,10 +10,16 @@ function Nav (){
                     Virginia Rabello
                 </a>
                 <ul className="right hide-on-med-and-down">
-                    <li><a href="#about">About me</a></li>
-                    <li><a>Portifolio</a></li>
-                    <li><a>Contact</a></li>
-                    <li><a>Resume</a></li>
+                    {tabs.map(tab => (
+                        <li key={tab}>
+                            <a
+                            href={'#'+ tab.toLocaleLowerCase()}
+                            onClick={()=> props.setCurrentNavItem(tab)}
+                            >
+                                {tab}
+                            </a>
+                        </li>
+                    ))}
                 </ul>
                 </div>
             </nav>
