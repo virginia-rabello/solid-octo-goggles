@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "Code Quiz",
+        "image": "https://ucarecdn.com/cb007099-afc6-4129-9724-de86b20d5474/codequiz.jpg",
+        "repo": "https://github.com/virginia-rabello/code-quiz",
+        "deployment": "https://virginia-rabello.github.io/code-quiz/"
+    },
+    {
+        "id": 2,
+        "name": "Work Day Scheduler",
+        "image": "https://ucarecdn.com/a7b738aa-d89f-4954-89c8-ab819431980d/scheduler.jpg",
+        "repo": "https://github.com/virginia-rabello/day-scheduler",
+        "deployment": "https://virginia-rabello.github.io/day-scheduler/"
+    },
+    {
+        "id": 3,
+        "name": "Weather Dashboard",
+        "image": "https://ucarecdn.com/c1d1c711-e187-4d30-9423-b69f031dd147/weatherdashboard.jpg",
+        "repo": "https://github.com/virginia-rabello/weather-dashboard",
+        "deployment": "https://virginia-rabello.github.io/weather-dashboard/"
+    },
+    {
+        "id": 4,
+        "name": "The Movie Hub",
+        "image": "https://ucarecdn.com/577001f3-9ed7-4361-a8a9-c89fc0c9644b/moviehub.jpg",
+        "repo": "https://github.com/virginia-rabello/Project1",
+        "deployment": "https://anjubimal.github.io/Project1/"
+    },
+    {
+        "id": 5,
+        "name": "Petcatio Station",
+        "image": "https://ucarecdn.com/a07e662b-6b4d-41f6-92d9-6808a436a7cc/petcationstation.jpg",
+        "repo": "https://github.com/virginia-rabello/petcation-station",
+        "deployment": "https://petcation-station.herokuapp.com/"
+    },
+    {
+        "id": 6,
+        "name": "Password Generator",
+        "image": "https://ucarecdn.com/2c72838d-1eef-4c36-9d65-20051db58312/passwordgenerator.jpg",
+        "repo": "https://github.com/virginia-rabello/password-generator",
+        "deployment": "https://virginia-rabello.github.io/password-generator/"
+    }
+]
