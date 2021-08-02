@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-
 import { validateEmail } from '../../utils/helpers';
 
 function ContactForm() {
@@ -38,14 +37,16 @@ function ContactForm() {
 
   return (
     <section>
-      <h1>Contact me</h1>
+        <div className="container">
+        <div className="about-intro hero-background contact-form">
+      <h4>Contact me</h4>
       <form id="contact-form" onSubmit={handleSubmit}>
         <div>
           <label htmlFor="name">Name:</label>
           <input type="text" name="name" defaultValue={name} onBlur={handleChange} />
         </div>
         <div>
-          <label htmlFor="email">Email address:</label>
+          <label htmlFor="email">Email:</label>
           <input type="email" name="email" defaultValue={email} onBlur={handleChange} />
         </div>
         <div>
@@ -57,8 +58,10 @@ function ContactForm() {
             <p className="error-text">{errorMessage}</p>
           </div>
         )}
-        <button data-testid="button" type="submit">Submit</button>
+        <button className="custom-button waves-effect waves-light" type="submit">Submit</button>
       </form>
+      </div>
+      </div>
     </section>
   );
 }
