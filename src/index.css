@@ -11,6 +11,17 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+header {
+  font-family: monospace;
+  text-shadow: 2px 2px 4px #000000;
+}
+header nav {
+  background-color: rgba(116, 6, 138, 0.8);
+}
+.logo-indent {
+  text-indent: 50px;
+}
 .hero {
   background-image: url("../src/assets/images/code-0.jpg");
 }
@@ -18,10 +29,38 @@ code {
 .hero-background{
   background-color: rgba(255, 255, 255, 0.6);
   margin:50px;
-  padding: 2%;
   border: 2px solid black;
   font-family: monospace;
   border-radius: 3% / 10%;
   text-align: justify;
-  min-height: 260px;
+  
+}
+
+.about {
+      background-image: url('./assets/images/pictures/me.jpg');
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-position:80%;
+    border-radius: 2% / 5%;
+    min-height: 800px;
+    max-height: 1300px;
+    font-family: monospace;
+    margin: 3%;
+    margin-top: 6%;
+    padding: 3%;
+    max-width: 90%;
+    line-height: 2.5em;
+}
+
+.about-intro {
+    min-width: 260px;
+    margin: 5px;
+    color: #fff;
+    line-height: 1.5;
+    background-color: rgba(0, 0, 0, 0.65);
+    border-radius: 3% / 5%;
+    padding: 1%;
+    text-align: justify;    
 }
