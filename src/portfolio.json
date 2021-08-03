@@ -8,7 +8,7 @@
     },
     {
         "id": 2,
-        "name": "Work Day Scheduler",
+        "name": "Day Scheduler",
         "image": "https://ucarecdn.com/a7b738aa-d89f-4954-89c8-ab819431980d/scheduler.jpg",
         "repo": "https://github.com/virginia-rabello/day-scheduler",
         "deployment": "https://virginia-rabello.github.io/day-scheduler/"
@@ -22,7 +22,7 @@
     },
     {
         "id": 4,
-        "name": "The Movie Hub",
+        "name": "Movie Hub",
         "image": "https://ucarecdn.com/577001f3-9ed7-4361-a8a9-c89fc0c9644b/moviehub.jpg",
         "repo": "https://github.com/virginia-rabello/Project1",
         "deployment": "https://anjubimal.github.io/Project1/"

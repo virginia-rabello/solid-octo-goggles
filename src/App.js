@@ -3,6 +3,7 @@ import './App.css';
 import Nav from './Components/Nav';
 import About from './Components/About';
 import ContactForm from './Components/Contact';
+import Portfolio from './Components/Portfolio';
 import 'materialize-css/dist/css/materialize.min.css';
 document.body.classList.add('hero');
 function App() {
@@ -13,6 +14,8 @@ function App() {
         return <About></About>
       case 'Contact':
         return  <ContactForm></ContactForm>
+      case 'Portfolio':
+        return <Portfolio></Portfolio>
        default:
          return <About></About> 
     }

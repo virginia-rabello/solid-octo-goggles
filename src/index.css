@@ -17,7 +17,8 @@ header {
   text-shadow: 2px 2px 4px #000000;
 }
 header nav {
-  background-color: rgba(116, 6, 138, 0.8);
+  background: rgb(8,1,129);
+  background: linear-gradient(90deg, rgba(8,1,129,0.8) 0%, rgba(4,4,255,0.8) 51%, rgba(255,0,241,0.8) 100%);
 }
 .logo-indent {
   text-indent: 50px;
@@ -33,7 +34,6 @@ header nav {
   font-family: monospace;
   border-radius: 3% / 10%;
   text-align: justify;
-  
 }
 
 .about {
@@ -83,4 +83,83 @@ form input,textarea {
   padding: 0.5%;
   border-radius: 1% / 20%;
   margin-top: 2%;
+}
+.wrapper {
+  padding-top: 50px;
+  height: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  padding: 20px;
+  justify-content: space-around;
+  align-content: flex-start;
+  overflow: auto;
+}
+.work {
+  position: relative;
+  text-align: center;
+}
+.work-img {
+  border-radius: 8% / 13%;
+  opacity: 0.5;
+  box-shadow: 5px 5px 8px blue;
+  width: fit-content;
+  height: fit-content;
+}
+
+.work-img a {
+  visibility: hidden;
+}
+
+.work-img:hover a {
+  visibility:visible;
+}
+
+.work-img img {
+  border-radius: inherit
+}
+.work-img:hover {
+  opacity:1;
+}
+
+.link{
+  position: absolute;
+  top: 50%;
+  left: 150%;
+  transform: translate(-50%, -50%);
+  font-family: monospace;
+  color: white;
+  font-size: xx-large;
+  box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.699);
+  border-radius: 3% / 10%;
+  background-color: rgba(56, 56, 56, 0.6);
+  width: 80%;
+}
+.link:hover{
+  background-color: rgba(56, 56, 56, 1);
+}
+.link:active{
+  background-color: rgb(145, 143, 143);;
+}
+
+.icon-gif{
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 50%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+  opacity: 0.6;
+}
+
+.icon-gif:hover {
+  opacity: 1;
+}
+
+.icon-gif:active {
+  filter: invert();
+}
+
+.icon-circle img {
+  border-radius: 50%;
+  box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.699);
 }
