@@ -17,6 +17,11 @@ header {
   text-shadow: 2px 2px 4px #000000;
 }
 header nav {
+  overflow: hidden;
+  top: 0;
+  width: 100%;
+  position: fixed;
+  margin-bottom: 20px;
   background: rgb(8,1,129);
   background: linear-gradient(90deg, rgba(8,1,129,0.8) 0%, rgba(4,4,255,0.8) 51%, rgba(255,0,241,0.8) 100%);
 }
@@ -48,7 +53,7 @@ header nav {
     max-height: 1300px;
     font-family: monospace;
     margin: 3%;
-    margin-top: 6%;
+    margin-top: 10%;
     padding: 3%;
     max-width: 90%;
     line-height: 2.5em;
@@ -66,7 +71,7 @@ header nav {
 }
 
 .contact-form {
-  margin-top: 9%;
+  margin-top: 10%;
 
 }
 
@@ -75,7 +80,7 @@ form input,textarea {
 }
 
 .custom-button {
-  background-color: rgba(116, 6, 138, 0.8);
+  background-color: rgba(116, 6, 138, 0.5);
   color:white;
   font-family: monospace;
   font-size: xx-large;
@@ -83,6 +88,10 @@ form input,textarea {
   padding: 0.5%;
   border-radius: 1% / 20%;
   margin-top: 2%;
+}
+
+.custom-button:hover{
+  background-color: rgba(116, 6, 138, 1);
 }
 .wrapper {
   padding-top: 50px;
@@ -162,4 +171,23 @@ form input,textarea {
 .icon-circle img {
   border-radius: 50%;
   box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.699);
+}
+
+.nav-activate{
+  color: #fff;
+}
+.nav-activate:link{
+  color: #fff;
+}
+.nav-activate:hover{
+  color: rgb(8,1,129);
+}
+ul li {
+  margin-left: 2em;
+  }
+.resume-list{
+  margin-left: 10%;
+} 
+.download{
+  margin-left: 1.5em;
 }

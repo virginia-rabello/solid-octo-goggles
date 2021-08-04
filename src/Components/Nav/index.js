@@ -11,8 +11,10 @@ function Nav (props){
                 </a>
                 <ul className="right hide-on-med-and-down">
                     {tabs.map(tab => (
-                        <li key={tab}>
-                            <a
+                        <li 
+                        key={tab}
+                        >
+                            <a className="nav-activate"
                             href={'#'+ tab.toLocaleLowerCase()}
                             onClick={()=> props.setCurrentNavItem(tab)}
                             >
