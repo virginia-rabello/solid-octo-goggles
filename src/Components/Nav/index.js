@@ -6,7 +6,7 @@ function Nav (props){
         <header>
             <nav>
                 <div className="nav-wrapper">
-                <a className="brand-logo left logo-indent" href="#about">
+                <a className="brand-logo left logo-indent">
                     Virginia Rabello
                 </a>
                 <ul className="right hide-on-med-and-down">
