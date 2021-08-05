@@ -32,3 +32,4 @@ This is a professional portifolio built with React that contains some of my work
   Copyright (c) 2021 Virginia Rabello.
   Licensed under the [GPL-2.0](https://opensource.org/licenses/GPL-2.0) license.
 
+# deep-thoughts
