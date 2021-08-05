@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/solid-octo-goggles/static/css/main.895dce11.chunk.css",
-    "main.js": "/solid-octo-goggles/static/js/main.9e47ec25.chunk.js",
-    "main.js.map": "/solid-octo-goggles/static/js/main.9e47ec25.chunk.js.map",
+    "main.js": "/solid-octo-goggles/static/js/main.4f732e84.chunk.js",
+    "main.js.map": "/solid-octo-goggles/static/js/main.4f732e84.chunk.js.map",
     "runtime-main.js": "/solid-octo-goggles/static/js/runtime-main.6266845e.js",
     "runtime-main.js.map": "/solid-octo-goggles/static/js/runtime-main.6266845e.js.map",
     "static/css/2.b0300f7a.chunk.css": "/solid-octo-goggles/static/css/2.b0300f7a.chunk.css",
@@ -22,6 +22,6 @@
     "static/css/2.b0300f7a.chunk.css",
     "static/js/2.f2972960.chunk.js",
     "static/css/main.895dce11.chunk.css",
-    "static/js/main.9e47ec25.chunk.js"
+    "static/js/main.4f732e84.chunk.js"
   ]
 }
