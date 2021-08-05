@@ -6,6 +6,7 @@ function Portfolio () {
     const [worksList] = useState(works);
 
     return (
+        <section>
         <div className="container">
        <div className="contact-form about-intro">
         <h4>My works</h4>
@@ -22,6 +23,7 @@ function Portfolio () {
         </div> 
         </div>
         </div>
+        </section>
     );
 }
 

@@ -8,8 +8,9 @@ class About extends Component {
     }
 render(){
 return (
-    <div className="container">
-        <main>
+    
+        <section>
+            <div className="container">
             <div className="about row">
                 <div className="about-intro col z-depth-4">
                 <h4 className="typewriter">Who am I?</h4>
@@ -27,10 +28,9 @@ return (
                 </p>
                 </div>
             </div>
-        </main>
-    </div>
-
-)
+            </div>
+        </section>
+    )
             }
 }
 

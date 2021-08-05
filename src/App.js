@@ -5,6 +5,7 @@ import About from './Components/About';
 import ContactForm from './Components/Contact';
 import Portfolio from './Components/Portfolio';
 import Resume from './Components/Resume';
+import Footer from './Components/Footer';
 import 'materialize-css/dist/css/materialize.min.css';
 document.body.classList.add('hero');
 function App() {
@@ -32,7 +33,9 @@ function App() {
       <main>
         {renderPage()}
       </main>
+      <Footer></Footer>
     </div>
+    
  
   );
 }

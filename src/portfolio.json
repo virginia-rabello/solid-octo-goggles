@@ -29,7 +29,7 @@
     },
     {
         "id": 5,
-        "name": "Petcatio Station",
+        "name": "Petcation Station",
         "image": "https://ucarecdn.com/a07e662b-6b4d-41f6-92d9-6808a436a7cc/petcationstation.jpg",
         "repo": "https://github.com/virginia-rabello/petcation-station",
         "deployment": "https://petcation-station.herokuapp.com/"
