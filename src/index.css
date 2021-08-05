@@ -11,3 +11,215 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+header {
+  font-family: monospace;
+  text-shadow: 2px 2px 4px #000000;
+}
+header nav {
+  overflow: hidden;
+  top: 0;
+  width: 100%;
+  position: fixed;
+  margin-bottom: 20px;
+  background: rgb(8,1,129);
+  background: linear-gradient(90deg, rgba(8,1,129,0.8) 0%, rgba(4,4,255,0.8) 51%, rgba(255,0,241,0.8) 100%);
+}
+.logo-indent {
+  text-indent: 50px;
+}
+.hero {
+  background-image: url("../src/assets/images/code-0.jpg");
+}
+
+.hero-background{
+  background-color: rgba(255, 255, 255, 0.6);
+  margin:50px;
+  border: 2px solid black;
+  font-family: monospace;
+  border-radius: 3% / 10%;
+  text-align: justify;
+}
+
+.about {
+      background-image: url('./assets/images/pictures/me.jpg');
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-position:80%;
+    border-radius: 2% / 5%;
+    min-height: 800px;
+    max-height: 1300px;
+    font-family: monospace;
+    margin: 3%;
+    margin-top: 10%;
+    padding: 3%;
+    max-width: 90%;
+    line-height: 2.5em;
+}
+
+.about-intro {
+    min-width: 260px;
+    margin: 5px;
+    color: #fff;
+    line-height: 1.5;
+    background-color: rgba(0, 0, 0, 0.65);
+    border-radius: 3% / 5%;
+    padding: 1%;
+    text-align: justify;    
+}
+
+.contact-form {
+  margin-top: 10%;
+
+}
+
+form input,textarea {
+  color: white;
+}
+
+.custom-button {
+  background-color: rgba(116, 6, 138, 0.5);
+  color:white;
+  font-family: monospace;
+  font-size: xx-large;
+  width: 100%;
+  padding: 0.5%;
+  border-radius: 1% / 20%;
+  margin-top: 2%;
+}
+
+.custom-button:hover{
+  background-color: rgba(116, 6, 138, 1);
+}
+.wrapper {
+  padding-top: 50px;
+  height: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  padding: 20px;
+  justify-content: space-around;
+  align-content: flex-start;
+  overflow: auto;
+}
+.work {
+  position: relative;
+  text-align: center;
+}
+.work-img {
+  border-radius: 8% / 13%;
+  opacity: 0.5;
+  box-shadow: 5px 5px 8px blue;
+  width: fit-content;
+  height: fit-content;
+}
+
+.work-img a {
+  visibility: hidden;
+}
+
+.work-img:hover a {
+  visibility:visible;
+}
+
+.work-img img {
+  border-radius: inherit
+}
+.work-img:hover {
+  opacity:1;
+}
+
+.link{
+  position: absolute;
+  top: 50%;
+  left: 150%;
+  transform: translate(-50%, -50%);
+  font-family: monospace;
+  color: white;
+  font-size: xx-large;
+  box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.699);
+  border-radius: 3% / 10%;
+  background-color: rgba(56, 56, 56, 0.6);
+  width: 80%;
+}
+.link:hover{
+  background-color: rgba(56, 56, 56, 1);
+}
+.link:active{
+  background-color: rgb(145, 143, 143);;
+}
+
+.icon-gif{
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 50%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+  opacity: 0.6;
+}
+
+.icon-gif:hover {
+  opacity: 1;
+}
+
+.icon-gif:active {
+  filter: invert();
+}
+
+.icon-circle img {
+  border-radius: 50%;
+  box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.699);
+}
+
+.nav-activate{
+  color: #fff;
+}
+.nav-activate:link{
+  color: #fff;
+}
+.nav-activate:hover{
+  color: rgb(8,1,129);
+}
+ul li {
+  margin-left: 2em;
+  }
+.resume-list{
+  margin-left: 10%;
+} 
+.download{
+  margin-left: 1.5em;
+}
+footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: 100%; 
+
+}
+
+.footer-social {
+  text-align: center;
+}
+
+.footer-social ul {
+  padding: 0;
+  display: inline-block;
+  list-style-type: none;
+}
+
+.footer-social li {
+  float: left;
+  margin: 0 15px 0 0;
+  padding: 0;
+}
+
+.footer-social img {
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+}
+
+.footer-social img:hover {
+  background-color: #fff;
+}

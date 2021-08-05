@@ -1,25 +1,42 @@
-import logo from './logo.svg';
+import React, {useState} from 'react';
 import './App.css';
-
+import Nav from './Components/Nav';
+import About from './Components/About';
+import ContactForm from './Components/Contact';
+import Portfolio from './Components/Portfolio';
+import Resume from './Components/Resume';
+import Footer from './Components/Footer';
+import 'materialize-css/dist/css/materialize.min.css';
+document.body.classList.add('hero');
 function App() {
+  const [currentNavItem, setCurrentNavItem] = useState('About');
+  const renderPage = () => {
+    switch(currentNavItem){
+      case 'About':
+        return <About></About>
+      case 'Contact':
+        return  <ContactForm></ContactForm>
+      case 'Portfolio':
+        return <Portfolio></Portfolio>
+      case 'Resume':
+        return <Resume></Resume>
+       default:
+         return <About></About> 
+    }
+  };
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Nav
+      currentNavItem={currentNavItem}
+      setCurrentNavItem={setCurrentNavItem}>
+      </Nav>
+      <main>
+        {renderPage()}
+      </main>
+      <Footer></Footer>
     </div>
+    
+ 
   );
 }
-
 export default App;
