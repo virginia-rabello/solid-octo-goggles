@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/solid-octo-goggles/static/css/main.895dce11.chunk.css",
-    "main.js": "/solid-octo-goggles/static/js/main.4f732e84.chunk.js",
-    "main.js.map": "/solid-octo-goggles/static/js/main.4f732e84.chunk.js.map",
-    "runtime-main.js": "/solid-octo-goggles/static/js/runtime-main.6266845e.js",
-    "runtime-main.js.map": "/solid-octo-goggles/static/js/runtime-main.6266845e.js.map",
+    "main.css": "/solid-octo-goggles/static/css/main.9d712c2d.chunk.css",
+    "main.js": "/solid-octo-goggles/static/js/main.e0d76049.chunk.js",
+    "main.js.map": "/solid-octo-goggles/static/js/main.e0d76049.chunk.js.map",
+    "runtime-main.js": "/solid-octo-goggles/static/js/runtime-main.b7fd2b3e.js",
+    "runtime-main.js.map": "/solid-octo-goggles/static/js/runtime-main.b7fd2b3e.js.map",
     "static/css/2.b0300f7a.chunk.css": "/solid-octo-goggles/static/css/2.b0300f7a.chunk.css",
-    "static/js/2.f2972960.chunk.js": "/solid-octo-goggles/static/js/2.f2972960.chunk.js",
-    "static/js/2.f2972960.chunk.js.map": "/solid-octo-goggles/static/js/2.f2972960.chunk.js.map",
-    "static/js/3.d1280e9b.chunk.js": "/solid-octo-goggles/static/js/3.d1280e9b.chunk.js",
-    "static/js/3.d1280e9b.chunk.js.map": "/solid-octo-goggles/static/js/3.d1280e9b.chunk.js.map",
+    "static/js/2.81a4da5c.chunk.js": "/solid-octo-goggles/static/js/2.81a4da5c.chunk.js",
+    "static/js/2.81a4da5c.chunk.js.map": "/solid-octo-goggles/static/js/2.81a4da5c.chunk.js.map",
+    "static/js/3.183f0f43.chunk.js": "/solid-octo-goggles/static/js/3.183f0f43.chunk.js",
+    "static/js/3.183f0f43.chunk.js.map": "/solid-octo-goggles/static/js/3.183f0f43.chunk.js.map",
     "index.html": "/solid-octo-goggles/index.html",
     "static/css/2.b0300f7a.chunk.css.map": "/solid-octo-goggles/static/css/2.b0300f7a.chunk.css.map",
-    "static/css/main.895dce11.chunk.css.map": "/solid-octo-goggles/static/css/main.895dce11.chunk.css.map",
-    "static/js/2.f2972960.chunk.js.LICENSE.txt": "/solid-octo-goggles/static/js/2.f2972960.chunk.js.LICENSE.txt",
+    "static/css/main.9d712c2d.chunk.css.map": "/solid-octo-goggles/static/css/main.9d712c2d.chunk.css.map",
+    "static/js/2.81a4da5c.chunk.js.LICENSE.txt": "/solid-octo-goggles/static/js/2.81a4da5c.chunk.js.LICENSE.txt",
     "static/media/index.css": "/solid-octo-goggles/static/media/me.5b49ad4e.jpg",
-    "static/media/resume.pdf": "/solid-octo-goggles/static/media/resume.ed8c94e5.pdf"
+    "static/media/resume.pdf": "/solid-octo-goggles/static/media/resume.4e2ea579.pdf"
   },
   "entrypoints": [
-    "static/js/runtime-main.6266845e.js",
+    "static/js/runtime-main.b7fd2b3e.js",
     "static/css/2.b0300f7a.chunk.css",
-    "static/js/2.f2972960.chunk.js",
-    "static/css/main.895dce11.chunk.css",
-    "static/js/main.4f732e84.chunk.js"
+    "static/js/2.81a4da5c.chunk.js",
+    "static/css/main.9d712c2d.chunk.css",
+    "static/js/main.e0d76049.chunk.js"
   ]
 }
