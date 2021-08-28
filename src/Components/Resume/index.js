@@ -29,7 +29,7 @@ function Resume () {
             </div>
         </div>
         </section>
-    );
+    )
 }
 
 export default Resume;
