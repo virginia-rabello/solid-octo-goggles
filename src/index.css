@@ -21,9 +21,10 @@ header nav {
   top: 0;
   width: 100%;
   position: fixed;
+  z-index: 1;
   margin-bottom: 20px;
   background: rgb(8,1,129);
-  background: linear-gradient(90deg, rgba(8,1,129,0.8) 0%, rgba(4,4,255,0.8) 51%, rgba(255,0,241,0.8) 100%);
+  background: linear-gradient(90deg, rgba(70, 69, 95, 0.8) 0%, rgba(150, 150, 189, 0.8) 51%, rgba(104, 93, 103, 0.8) 100%);
 }
 .logo-indent {
   text-indent: 50px;
@@ -80,18 +81,18 @@ form input,textarea {
 }
 
 .custom-button {
-  background-color: rgba(116, 6, 138, 0.5);
+  background-color: rgba(142, 140, 143, 0.5);
   color:white;
   font-family: monospace;
   font-size: xx-large;
   width: 100%;
   padding: 0.5%;
-  border-radius: 1% / 20%;
+  border-radius: .5rem;
   margin-top: 2%;
 }
 
 .custom-button:hover{
-  background-color: rgba(116, 6, 138, 1);
+  background-color: rgb(126, 122, 126);
 }
 .wrapper {
   padding-top: 50px;
@@ -101,45 +102,56 @@ form input,textarea {
   padding: 20px;
   justify-content: space-around;
   align-content: flex-start;
-  overflow: auto;
 }
+.work-flip {
+  background-color: transparent;
+  width: 438px;
+  height: 258px;
+}
+
 .work {
-  position: relative;
+  width: 100%;
+  height: 100%;
   text-align: center;
-}
-.work-img {
-  border-radius: 8% / 13%;
-  opacity: 0.5;
-  box-shadow: 5px 5px 8px blue;
-  width: fit-content;
-  height: fit-content;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
 }
 
-.work-img a {
-  visibility: hidden;
+.work-front img {
+  border-radius: .5rem;
+}
+.work-flip:hover .work {
+  transform: rotateX(180deg);
+  width:100%;
+  height: 100%;
+}
+.work-front, .work-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: .5rem;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+.work-front{
+  background-color: #bbb;
+  color: black;
+}
+.work-back{
+  background-color: rgb(64, 82, 100);
+  color: white;
+  transform: rotateX(180deg);
 }
 
-.work-img:hover a {
-  visibility:visible;
-}
-
-.work-img img {
-  border-radius: inherit
-}
-.work-img:hover {
-  opacity:1;
-}
 
 .link{
-  position: absolute;
-  top: 50%;
-  left: 150%;
-  transform: translate(-50%, -50%);
   font-family: monospace;
   color: white;
   font-size: xx-large;
+  padding: 1%;
+  margin: 1%;
   box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.699);
-  border-radius: 3% / 10%;
+  border-radius: .3rem;
   background-color: rgba(56, 56, 56, 0.6);
   width: 80%;
 }
@@ -151,12 +163,8 @@ form input,textarea {
 }
 
 .icon-gif{
-  position: absolute;
   width: 50px;
   height: 50px;
-  top: 50%;
-  left: 80%;
-  transform: translate(-50%, -50%);
   opacity: 0.6;
 }
 
@@ -168,10 +176,6 @@ form input,textarea {
   filter: invert();
 }
 
-.icon-circle img {
-  border-radius: 50%;
-  box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.699);
-}
 
 .nav-activate{
   color: #fff;

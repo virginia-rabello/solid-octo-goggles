@@ -21,7 +21,6 @@ function ContactForm() {
       .then((response)=> {
         console.log('SUCCESS!', response.status, response.text);
         window.alert('Email successfully sent!');
-        window.location.href = '/about';
       })
       .catch((err)=> {
         console.log('FAILED...', err);
@@ -55,6 +54,7 @@ function ContactForm() {
         <div className="container">
         <div className="about-intro hero-background contact-form">
       <h4>Contact me</h4>
+      <a href="mailto:virginia.rabello2107@gmail.com">virginia.rabello2107@gmail.com</a>  
       <form id="contact-form" onSubmit={handleSubmit}>
         <div>
           <label htmlFor="name">Name:</label>

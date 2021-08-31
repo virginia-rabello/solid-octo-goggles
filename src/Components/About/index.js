@@ -14,10 +14,18 @@ return (
             <div className="about row">
                 <div className="about-intro col z-depth-4">
                 <h4 className="typewriter">Who am I?</h4>
+                <p>I am a Web Developer with a business driven mindset. I have recently earned my Full Stack Web Developer certification from University of Texas, where I worked to develop skills in JavaScript, HTML5, CSS, React and more tools to develop web applications concerning responsiveness and performance.</p>
+                <p>I am a natural problem solver and passionate about developing apps from the scratch, thinking not only in the design but also in what kind of features makes sense for each type of business. I have the ability to lead, exploring each team member's strength and solving conflicts, but I also love being led to learn, to deliver awesome features and develop and improve my skill set.</p>
+                <p>After the Boot Camp I have being working independently to learn about AWS , C# and Games development. </p>
+                <p>I strive to bring to each project:</p>
+                <li>Creativity and a design dressed to each public.</li>
+                <li>Problem solving skills, debugging and researching new technologies according to the necessities.</li>
+                <li>Team work, collaboration and good communication</li>
+                <li> Punctuality, I'm very committed to deadlines.</li>
                 <p><Typewriter
                     onInit={(typewriter) => {
-                        typewriter.changeDelay(10)
-                        typewriter.typeString("My full name is Virginia Regina Ferreira da Costa Rabello, I'm married and mother of two beautiful boys. I was born in the South-east of Brazil in 1983, back there it was very hard to have a degree and the unemployment rate was very high, after some temporary jobs I was 19 when I decided to open my own business, it was a successful Hair Stylist Salon where I worked for 9 years learning, teaching and growing as a person. In 2014 my family and I had to move to another state, it was a great career oportunity for my husband and, since I had to close my business, I decided that it was time to change my path. I've always been a passionate about technology, games, computers, etc... but I've never had an opportunity to study before. In 2016 I could finally start studying in the University where I started my Computers Engineering classes, where I studied for 3 years learning computers architecture and coding in low level languages, which makes easier for me learn other languages. In 2019 I was working as an Undergraduate Research Fellow in a microelectronics project for the University, where I used to generate logical synthesis for hardware projects and analyze the reports. By the end of 2019, another great opportunity for my husband came out and another big move was necessary, this time we moved to United States and since then, my new challenge is to get back on the game and start a new career. I recenttly dicovered a new passion for Web Development and I'm investing a lot of my time improving my skills.")
+                        typewriter.changeDelay(20)
+                        typewriter.typeString("I am excited to be part of a developers team where I can learn and grow as a professional and person.")
                         .callFunction(() => {
                             console.log('String typed out!');
                         })
@@ -25,7 +33,7 @@ return (
                         .start();
                     }}
                     />
-                </p>
+                 </p>    
                 </div>
             </div>
             </div>

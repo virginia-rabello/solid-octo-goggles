@@ -2,6 +2,8 @@
     {
         "id": 1,
         "name": "Code Quiz",
+        "description": "This application is a Quiz with multiple choices that tests your coding knowledge, it gives you 75 seconds to answer 5 questions, each time your answer is wrong it punishes you by 10 seconds.",
+        "technologies": "HTML, CSS, JavaScript, DOM manipulation.",
         "image": "https://ucarecdn.com/cb007099-afc6-4129-9724-de86b20d5474/codequiz.jpg",
         "repo": "https://github.com/virginia-rabello/code-quiz",
         "deployment": "https://virginia-rabello.github.io/code-quiz/"
@@ -9,6 +11,8 @@
     {
         "id": 2,
         "name": "Day Scheduler",
+        "description": "This aplication is a scheduler to help the user organize daily tasks, it uses moment.js to track the time and changes the hours background color according to past, present and future.",
+        "technologies": "HTML, CSS, JavaScript, Bootstrap, Jquery, Moment.js.",
         "image": "https://ucarecdn.com/a7b738aa-d89f-4954-89c8-ab819431980d/scheduler.jpg",
         "repo": "https://github.com/virginia-rabello/day-scheduler",
         "deployment": "https://virginia-rabello.github.io/day-scheduler/"
@@ -16,6 +20,8 @@
     {
         "id": 3,
         "name": "Weather Dashboard",
+        "description": "This application shows the weather conditions in a city of the users choice, it also shows the next five days forecasts and saves the last searches in the local storage.",
+        "technologies":"HTML, CSS, JavaScript, DOM manipulation, Yahoo Weather API, Jquery",
         "image": "https://ucarecdn.com/c1d1c711-e187-4d30-9423-b69f031dd147/weatherdashboard.jpg",
         "repo": "https://github.com/virginia-rabello/weather-dashboard",
         "deployment": "https://virginia-rabello.github.io/weather-dashboard/"
@@ -23,6 +29,8 @@
     {
         "id": 4,
         "name": "Movie Hub",
+        "description": "This application shows trending movies, new movies, movies by genre and theaters nearby.",
+        "technologies":"HTML, CSS, JavaScript, Materialize, Moment.js, Yahoo API, Movie GLU API, The Movie DB API.",
         "image": "https://ucarecdn.com/577001f3-9ed7-4361-a8a9-c89fc0c9644b/moviehub.jpg",
         "repo": "https://github.com/virginia-rabello/Project1",
         "deployment": "https://anjubimal.github.io/Project1/"
@@ -30,6 +38,8 @@
     {
         "id": 5,
         "name": "Petcation Station",
+        "description": "This App for pet owners and pet sitters to connect and make arrangements regarding the care for the furry friends.",
+        "technologies": "HTML, CSS, JavaScript, Materialize, Node Express, Uploadcare, SQL, Sequelize, Cookies.",
         "image": "https://ucarecdn.com/a07e662b-6b4d-41f6-92d9-6808a436a7cc/petcationstation.jpg",
         "repo": "https://github.com/virginia-rabello/petcation-station",
         "deployment": "https://petcation-station.herokuapp.com/"
@@ -37,6 +47,8 @@
     {
         "id": 6,
         "name": "Password Generator",
+        "description": "This app generates passwords according to the users desire regarding to size and type of characteres.",
+        "technologies": "HTML, CSS, JavaScript",
         "image": "https://ucarecdn.com/2c72838d-1eef-4c36-9d65-20051db58312/passwordgenerator.jpg",
         "repo": "https://github.com/virginia-rabello/password-generator",
         "deployment": "https://virginia-rabello.github.io/password-generator/"
@@ -44,9 +56,10 @@
     {
         "id": 7,
         "name": "Cloudtronics",
+        "description": "This app is a store that sells electronics products.",
+        "technologies":"HTML, CSS, JavaScript, MongoDB, Mongoose, Apollo, React, CSS in JS, Bcrypt, JWT, Redux, Indexed Database",
         "image": "https://ucarecdn.com/7e04f7cc-d7c4-4d76-902f-cca4ad5d4527/cloudtronics.jpg",
         "repo": "https://github.com/virginia-rabello/cloudtronics",
         "deployment": "https://cloudtronics.herokuapp.com/login"
     }
-
 ]

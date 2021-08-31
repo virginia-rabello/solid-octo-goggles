@@ -17,7 +17,8 @@ function Portfolio () {
             image={work.image}
             repo={work.repo}
             deployment={work.deployment}
-            de
+            description={work.description}
+            technologies={work.technologies}
             ></WorkCard>
         ))}
         </div> 
